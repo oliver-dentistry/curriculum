@@ -1,0 +1,19 @@
+.img-landing {
+  margin-top: -30px;
+  max-width: 400px;
+  border-radius: 10%;
+}
+
+.navbar-brand {
+  margin-right: 3rem;
+}
+.navbar-brand .navbar-brand:hover {
+  color: #dfbfff !important;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
