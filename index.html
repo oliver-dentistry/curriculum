@@ -11,7 +11,7 @@
       name="description"
       content="Dr. Oliver Reyes | Odontólogo, Implantología Oral, Estética y Ortodoncia"
     />
-    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="src/css/normalize.css" />
     <link rel="stylesheet" href="src/fontawsome/css/all.css" />
     <link rel="stylesheet" href="src/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="src/css/main.css" />
@@ -76,67 +76,100 @@
     <main>
       <!-- primera grid fotos de cirugía -->
       <section class="row justify-content-around">
-        <div class="col-4">
+        <div class="col-sm-12 col-md-4 col-lg-4">
           <img
             src="src/img/img2.JPG"
             class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
             alt=""
           />
         </div>
-        <article class="col-6 my-3">
-            <h3 class="h3 ml-5 mb-4">Lorem ipsum dolor sit.</h3>
+        <article class="col-sm-12 col-md-8 col-lg-6 my-3">
+          <h3 class="h3 ml-5 mb-4">Acerca de mi</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-            officiis blanditiis voluptatibus labore eos consectetur doloribus
-            ducimus ab quia a nesciunt ipsam aut, magnam, error molestias nam
-            autem! Obcaecati necessitatibus perspiciatis sed magni magnam quis
-            voluptatum debitis non, natus, neque suscipit vero rem quo similique
-            nulla impedit nisi culpa error!
+            <span class="ml-4"></span> Por el año 2000 me tocó decidir el camino profesional
+            que seguiría, despues de más de diez años dedicado a mis pacientes y a mi profesión
+            puedo decir que no me equivoque al escoger la carrera de Odontólogia como profesión. 
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-            officiis blanditiis voluptatibus labore eos consectetur doloribus
-            ducimus ab quia a nesciunt ipsam aut, magnam, error molestias nam
-            autem! Obcaecati necessitatibus perspiciatis sed magni magnam quis
-            voluptatum debitis non, natus, neque suscipit vero rem quo similique
-            nulla impedit nisi culpa error!
+            <span class="ml-3"></span> He trabajado junto a personas maravillosas, y conocido a muchos
+            pacientes de distintas nacionalidades formando equipo con profesionales muy calificados 
+            y de los cuales he aprendido mucho a lo largo de mi carrera trabajando con ellos.
           </p>
+          <p>
+            <span class="ml-3"></span> Eso me motiva a seguir aprendiendo cada día para brindarle
+            a mis pacientes la satisfacción y seguridad de ser tratados por por un profesional que 
+            ama lo que hace.
+          </p>
+      
         </article>
       </section>
       <section class="row justify-content-around">
-        <article class="col-6 my-5">
-            <h3 class="h3 ml-5 mb-4">Lorem ipsum dolor sit.</h3>
+        <article class="col-sm-12 col-md-8 col-lg-6   my-5">
+          <h3 class="h3 ml-5 mb-4">La Odontologia Evoluciona</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-            officiis blanditiis voluptatibus labore eos consectetur doloribus
-            ducimus ab quia a nesciunt ipsam aut, magnam, error molestias nam
-            autem! Obcaecati necessitatibus perspiciatis sed magni magnam quis
-            voluptatum debitis non, natus, neque suscipit vero rem quo similique
-            nulla impedit nisi culpa error!
+            <span class="ml-5"></span> Ser Odontologo es permanecer en una constante evolución
+            que no se detiene, cada día salen materiales nuevos, nuevas técnicas y metodos que 
+            mejoran tanto la salud de los pacientes como el trabajo de los que nos dedicamos a la 
+            salud bucal. Por eso considero que estar en una permanente educación continua sólo 
+            puede asegurar el éxito.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-            officiis blanditiis voluptatibus labore eos consectetur doloribus
-            ducimus ab quia a nesciunt ipsam aut, magnam, error molestias nam
-            autem! Obcaecati necessitatibus perspiciatis sed magni magnam quis
-            voluptatum debitis non, natus, neque suscipit vero rem quo similique
-            nulla impedit nisi culpa error!
-          </p>
+          
         </article>
-        <div class="col-4">
+        <div class="col-sm-12 col-md-4 col-lg-4 my-5">
           <img
             src="src/img/img1.JPG"
-            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+            class="img-fluid mb-5 ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
             alt=""
           />
         </div>
       </section>
       <!-- fin de la primera grid fotos de cirugía -->
+      <!-- Separador -->
       <section>
-          <div class="container-fluid">
-
+        <div class="container-fluid bg-dark separador">
+          <div class="container">
+            <div class="row align-content-center intersection">
+              <div class="col-12">
+                <h3 class="display-2 text-white titulo__separador">Un buen Odontólogo</h3>
+              </div>
+              <div class="col-12 text-white text-right mr-5">
+                <p class="lead mr-5 parrafo_separador">Es aquel que se preocupa por sus pacientes</p>
+              </div>
+            </div>
           </div>
+        </div>
       </section>
+      <!-- Fin del separador -->
+      <!-- Section dos -->
+      <section>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 my-5">
+              <h3 class="display-2 text-center">Lorem ipsum dolor</h3>
+            </div>
+            <div class="col-lg-8 col-md-10">
+              <div class="caja-imagen"></div>
+            </div>
+            <div class="col-lg-8 col-md-12 my-5">
+              <p class="mt-2 section-dos__p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                sapiente quo saepe, aut vero ullam quisquam magnam commodi
+                repudiandae, est consequuntur. Voluptatem blanditiis velit esse,
+                temporibus rem dolor? Animi consequatur quos labore adipisci
+                officiis quia error alias placeat dolores. Quidem necessitatibus
+                ad doloribus nostrum repellendus illum laboriosam, explicabo
+                inventore dolore veniam eaque in modi minus suscipit beatae.
+                Quam qui, perspiciatis nobis corrupti facere nulla iure fugit
+                reiciendis, maiores nihil labore blanditiis quisquam ratione
+                ipsum vel cum! Vero, nemo! Repellat dolorem fuga magnam. Hic
+                perferendis deserunt totam error veritatis pariatur, quos labore
+                fugiat, praesentium eius tenetur culpa odit quidem iste! Quia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- fin de Seccion -->
     </main>
     <!-- Fin del Main content -->
     <!-- Optional JavaScript -->
@@ -146,7 +179,11 @@
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
     <script src="src/bootstrap/js/bootstrap.js"></script>
     <script src="src/js/main.js"></script>
   </body>

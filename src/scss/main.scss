@@ -14,3 +14,33 @@
     margin-right: 0;
     margin-left: 0; 
 }
+
+.intersection{
+    height: 200px;
+}
+
+.caja-imagen{
+    height: 400px;
+    border: 1px dashed black;
+}
+
+@media screen and (max-width: 700px){
+    .img-landing{
+        margin-top: -30px;
+        max-width: 300px;
+        border-radius: 10%;
+    }
+}
+
+.titulo__separador{
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 700px){
+    .parrafo_separador{
+        margin-right: 0 !important;
+    }
+    .section-dos__p{
+        padding: 0 !important; 
+    }
+}
